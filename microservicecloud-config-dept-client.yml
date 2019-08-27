@@ -12,9 +12,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB01
-    username: root
-    password: 123456
+    url: jdbc:mysql://192.168.1.210:3306/cloudDB01
+    username: dev
+    password: dev
     dbcp2:
           min-idle: 5
           initial-size: 5
@@ -30,8 +30,8 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: cn21-microservicecloud
-  company.name: cn21.com
+  app.name: jianxiaopo-microservicecloud
+  company.name: jianxiaopo.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   
@@ -45,9 +45,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://localhost:3306/cloudDB02
-    username: root
-    password: 123456
+    url: jdbc:mysql://192.168.1.210:3306/cloudDB01
+    username: dev
+    password: dev
     dbcp2:
           min-idle: 5
           initial-size: 5
@@ -63,7 +63,7 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: cn21-microservicecloud
-  company.name: cn21.com
+  app.name: jianxiaopo-microservicecloud
+  company.name: jianxiaopo.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
